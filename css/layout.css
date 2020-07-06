@@ -1,0 +1,79 @@
+/* reset */
+html,
+body,
+div,
+p,
+ul,
+li,
+dt,
+dd,
+dl,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+iframe {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+em,
+i,
+strong,
+b {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: normal;
+}
+
+button,
+input,
+textarea {
+  font-size: inherit;
+  border: none;
+  background: none;
+  outline: 0;
+}
+
+img {
+  border: none;
+}
+
+html {
+  font-size: 100px;
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: '微软雅黑';
+  font-size: 0.28rem;
+  color: #333;
+  height: 100%;
+}
+
+/* 外层容器 */
+.open-box {
+  max-width: 750px;
+  min-height: 100%;
+  margin: 0 auto;
+  background: #f2f2f2;
+}
+
+/* 测试可删除 */
+.cs {
+  width: 6.6rem;
+  height: 0.82rem;
+  background: rgba(41, 203, 182, 1);
+  border-radius: 0.41rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 0.82rem;
+}
